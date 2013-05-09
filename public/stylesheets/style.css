@@ -1,0 +1,89 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400; }
+  body, body * {
+    -webkit-font-smoothing: antialiased; }
+
+section.month header h2 {
+  position: relative;
+  margin-bottom: 10px;
+  padding: 12px 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 1em;
+  text-transform: uppercase;
+  border-radius: 3px; }
+  section.month header h2:after {
+    content: " ";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px;
+    border-top-color: rgba(0, 0, 0, 0.6);
+    left: 50%;
+    margin-left: -5px;
+    bottom: -10px; }
+
+section.day .timeline {
+  width: 1px;
+  background: rgba(0, 0, 0, 0.3); }
+section.day .span6 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+section.day:nth-child(even) .timeline {
+  right: -11px; }
+section.day:nth-child(even) .span6 {
+  padding-right: 10px; }
+section.day:nth-child(even) header h3 {
+  padding-right: 4px; }
+  section.day:nth-child(even) header h3:after {
+    right: -26px; }
+section.day:nth-child(odd) .span6 {
+  padding-left: 10px; }
+section.day:nth-child(odd) .timeline {
+  left: -10px; }
+section.day:nth-child(odd) header h3 {
+  padding-left: 4px; }
+  section.day:nth-child(odd) header h3:after {
+    left: -25px; }
+section.day header {
+  margin: 20px 0; }
+  section.day header h3 {
+    line-height: 1em;
+    font-size: 12px;
+    text-transform: uppercase;
+    position: relative; }
+    section.day header h3:after {
+      content: " ";
+      position: absolute;
+      display: block;
+      width: 5px;
+      height: 5px;
+      border-radius: 6px;
+      background: #559977;
+      border: 3px solid #202020;
+      top: 50%;
+      margin-top: -5px; }
+section.day article {
+  border-radius: 3px;
+  padding: 15px;
+  margin-bottom: 23px; }
+  section.day article h4 {
+    line-height: 1.4em;
+    margin: 0 0 5px; }
+    section.day article h4 a {
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      text-decoration: none;
+      color: #e6e6e6; }
+      section.day article h4 a:hover {
+        color: #fff; }
+  section.day article p {
+    margin: 0 0 10px;
+    color: #d6d6d6; }
+  section.day article p:last-of-type {
+    margin: 0; }
