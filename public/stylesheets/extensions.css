@@ -18,9 +18,9 @@ footer p { color: #FFFFFF; text-align: center; }
 section.month header { text-align: center; }
 section.month header h2 { background-color: rgba(0, 0, 0, 0.6); display: inline-block; margin: 0px 0px 0px 0px; padding: 10px 10px 10px 10px; }
 
-section.day div.span6 { position: relative; }
-section.day div.timeline { position: absolute; top: 0px; height: 100%; background-color: rgba(0, 0, 0, 0.6); width: 4px; }
+section.day .span6 { position: relative; }
+section.day .timeline { position: absolute; top: 0px; height: 100%; background-color: rgba(0, 0, 0, 0.6); width: 4px; }
 section.day:nth-child(even) header h3 { text-align: right; }
-section.day:nth-child(odd) div.timeline { left: -12px; }
-section.day:nth-child(even) div.timeline { right: -12px; }
+section.day:nth-child(odd) .timeline { left: -12px; }
+section.day:nth-child(even) .timeline { right: -12px; }
 section.day article { background-color: rgba(0, 0, 0, 0.6); margin-bottom: 10px; padding: 10px 10px 10px 10px; }
